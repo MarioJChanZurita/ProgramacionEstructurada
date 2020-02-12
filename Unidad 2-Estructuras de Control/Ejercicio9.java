@@ -24,17 +24,14 @@ public class Main{
 
         //Bucle para los múltiplos y validación[Procedimiento] 
         if (limite < 5){
-            System.out.println("Ese número no es lo suficientemente grande");
+            System.out.println("0");
+            System.exit(0);
          } else if(limite >= 5) {
              multiplos = limite/5;
          }
 
          //Impresión de salidas[Salida]
-         System.out.println("Resultados: ");
-         for(int i = 0; i < multiplos; i++){
-             resultado = resultado + 5;
-             System.out.println(resultado);
-         }
+         System.out.println(multiplos);
     }
 }
 
